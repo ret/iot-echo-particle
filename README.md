@@ -39,8 +39,11 @@ If you don't have access to the transparent material, you could modify the base 
 # Printing the parts
 Only two parts are needed. The larger base (printed black), and the much smaller transparent material ring.
 
-![Print parts](./EchoParticleStand.png)
+![Base](./base.png)
+
 The transparent material ring is thin. Depending on your material it may be somewhat brittle and it may take patience to get it off the printer baseplate without breaking. Take your time and don't rush getting it off!
+
+![Ring](./ring.png)
 
 # The little bit of code
 [```EchoParticle.ino```](./EchoParticle.ino) contains the code that runs on the Photon device inside the 3D printed base. Use the Particle IDE, CLI, or web interface to flash the Photon device.
