@@ -1,5 +1,5 @@
 # iot-echo-particle
-*Enables your Alexa skill to draw your attention to one of your Echo devices.*
+*Enables your Alexa skill to draw attention to an Echo device.*
 
 These instructions describe how to build a little stand for your Echo device. Inside the stand is a remote controllable LED that is super easy to turn on and off using just a HTTP request.
 
