@@ -14,8 +14,11 @@ Below, we list the 3D print files and trivial C file for the Particle.io/Photon 
 
 # What's inside
 The Photon's micro usb connector fits so snug that it helps hold the Photon device in place.
+
 ![](./inside1.jpg)
+
 We used a little [board](https://www.sparkfun.com/products/12702) to solder the resistor and LED onto.
+
 ![](./inside2.jpg)
 
 # What you need
