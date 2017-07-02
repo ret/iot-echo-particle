@@ -37,7 +37,7 @@ You'll need a few parts, and access to a 3D printer.
 If you don't have access to the transparent material, you could modify the base part and add a vertical opening at the front for the LED light to shine through. The Echo devices can stand both on the base directly as well as on the layered ring.
 
 # Printing the parts
-Only two parts are needed. The larger base (printed black), and the much smaller transparent material ring.
+The two ```.stl``` files in this project contain the larger [base](./EchoParticleStand.stl) and smaller [ring](./EchoParticleStandRing.stl) part that make up the Echo stand. We printed the base black and used a transparent material to print the ring.
 
 ![Base](./base.png)
 
