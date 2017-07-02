@@ -9,23 +9,11 @@ void setup() {
   Particle.variable("alert", alert);
   // invoke with
   // ON
-  // curl https://api.particle.io/v1/devices/36003f001047343438323536/alert -d access_token=123412341234 -d "args=on"
+  // curl https://api.particle.io/v1/devices/<DEVICEID>/alert -d access_token=<TOKEN> -d "args=on"
   // OFF
-  // curl https://api.particle.io/v1/devices/36003f001047343438323536/alert -d access_token=123412341234 -d "args=off"
+  // curl https://api.particle.io/v1/devices/<DEVICEID>/alert -d access_token=<TOKEN> -d "args=off"
   //
   Particle.function("alert", setAlert);
-
-  // COUPLING - events come from garagedoor app/device!
-  Particle.subscribe("door-opened", evOpenedHandler, MY_DEVICES);
-  Particle.subscribe("door-closed", evClosedHandler, MY_DEVICES);
-}
-
-void evOpenedHandler(const char *event, const char *data) {
-    alert = ON;
-}
-
-void evClosedHandler(const char *event, const char *data) {
-    alert = OFF;
 }
 
 void loop() {
